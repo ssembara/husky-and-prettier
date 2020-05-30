@@ -1,0 +1,22 @@
+{
+  "name": "husky-git-hooks-made-easy",
+  "version": "1.0.0",
+  "description": "huskyjs concepts and usage, husky can prevent bad git commit, git push and many more! ",
+  "repository": "github.com/ssembara/husky-git-hooks-made-easy",
+  "author": "Sebastianus Sembara <sembara9090@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "mdx-deck deck.js",
+    "build": "mdx-deck build deck.js",
+    "now-build": "yarn build"
+  },
+  "devDependencies": {
+    "code-surfer": "^2.0.0-alpha.10",
+    "mdx-deck": "^2.5.1",
+    "mdx-deck-code-surfer": "^0.5.5"
+  },
+  "peerDependencies": {
+    "react": "16.12.0",
+    "react-dom": "16.12.0"
+  }
+}
