@@ -1,5 +1,5 @@
 {
-  "alias": ["husky and prettier"],
+  "alias": ["husky-and-prettier"],
   "builds": [
     {
       "src": "package.json",
