@@ -1,0 +1,86 @@
+import { Appear, Embed, Notes } from 'mdx-deck'
+import { Code, CodeSurferLayout } from 'code-surfer'
+
+## What is Husky ?
+![gif](https://media1.tenor.com/images/0c26f6786791e8e96fa0592046d7fc31/tenor.gif?itemid=14124868)   
+
+---
+# [Husky](https://github.com/typicode/husky) is a git-hooks, <br /> 
+### it can prevent bad git commit, git push and more 🐶 woof!
+---
+
+## Some Commands on Git Hooks 🎣
+<ol>
+  <Appear>
+    <li>
+        Pre-commit
+    </li>
+    <li>
+        Post-commit
+    </li>
+    <li>
+        Pre-push
+    </li>
+    <li>
+      And many more, <br /> furthermore please check the <a href='https://git-scm.com/docs/githooks'><b>Documentation</b></a>
+    </li>
+  </Appear>
+</ol>
+
+---
+
+### Installation
+
+``` yarn add husky -D ```
+
+
+---
+
+<CodeSurferLayout>
+
+```json
+{
+  "husky": {
+    "hooks": {
+      "...": "..."
+    }
+  }
+}
+```
+```json
+{
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test",
+      "...": "..."
+    }
+  }
+}
+```
+```json
+{
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test",
+      "pre-push": "npm test",
+      "...": "..."
+    }
+  }
+}
+```
+```json 1:10
+{
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test",
+      "pre-push": "npm test",
+      "post-commit": "npm test"
+      "...": "..."
+    }
+  }
+}
+```
+
+</CodeSurferLayout>
+
+---
