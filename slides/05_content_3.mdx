@@ -14,47 +14,97 @@ import { CodeSurferLayout } from "code-surfer";
     "tsc": "rm -rf build/ && tsc",
     "ts": "rm -rf build/ && tsc -w",
     "dev": "nodemon ./build/index.js"
-  }
+git}
+"devDependencies": {
+    "nodemon": "^2.0.4",
+    "typescript": "^3.9.3",
+    "husky": "^4.2.5",
+    "prettier": "^2.0.5"
+},
 ```
+
 ```json 5
 "scripts": {
     "tsc": "rm -rf build/ && tsc",
     "ts": "rm -rf build/ && tsc -w",
     "dev": "nodemon ./build/index.js",
     "format": "prettier --write \"src/**/*.{js,ts,tsx,css,scss}\""
-  }
-
+}
+"devDependencies": {
+    "nodemon": "^2.0.4",
+    "typescript": "^3.9.3",
+    "husky": "^4.2.5",
+    "prettier": "^2.0.5"
+},
 ```
+
 ```json
 "scripts": {
     "tsc": "rm -rf build/ && tsc",
     "ts": "rm -rf build/ && tsc -w",
     "dev": "nodemon ./build/index.js",
     "format": "prettier --write \"src/**/*.{js,ts,tsx,css,scss}\""
-  },
+},
+"devDependencies": {
+    "nodemon": "^2.0.4",
+    "typescript": "^3.9.3",
+    "husky": "^4.2.5",
+    "prettier": "^2.0.5"
+},
 "prettier": {
     "semi": false,
     "singleQuote": true,
     "trailingComma": "all"
-  }
+}
 ```
+
 ```json
 "scripts": {
     "tsc": "rm -rf build/ && tsc",
     "ts": "rm -rf build/ && tsc -w",
     "dev": "nodemon ./build/index.js",
     "format": "prettier --write \"src/**/*.{js,ts,tsx,css,scss}\""
-  },
+},
+"devDependencies": {
+    "nodemon": "^2.0.4",
+    "typescript": "^3.9.3",
+    "husky": "^4.2.5",
+    "prettier": "^2.0.5"
+},
 "husky": {
     "hooks": {
-      "pre-commit": "yarn format"
+    "pre-commit": "yarn format"
     }
-  },
+},
 "prettier": {
     "semi": false,
     "singleQuote": true,
     "trailingComma": "all"
-  }
+}
+```
+```json 1:22
+"scripts": {
+    "tsc": "rm -rf build/ && tsc",
+    "ts": "rm -rf build/ && tsc -w",
+    "dev": "nodemon ./build/index.js",
+    "format": "prettier --write \"src/**/*.{js,ts,tsx,css,scss}\""
+},
+"devDependencies": {
+    "nodemon": "^2.0.4",
+    "typescript": "^3.9.3",
+    "husky": "^4.2.5",
+    "prettier": "^2.0.5"
+},
+"husky": {
+    "hooks": {
+    "pre-commit": "yarn format"
+    }
+},
+"prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "all"
+}
 ```
 
 </CodeSurferLayout>

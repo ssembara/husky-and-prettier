@@ -14,4 +14,4 @@ export { duotoneDark as theme } from 'code-surfer'
 export const themes = []
 
 // Spread your slides here...
-export const slides = [...title, ...introduction, ...content_1, ...content_2, ...content_3]
+export const slides = [...title, ...introduction, ...content_1, ...content_2, ...content_3, ...closing]
