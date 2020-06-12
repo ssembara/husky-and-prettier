@@ -1,15 +1,15 @@
+
+import { slides as title } from './slides/01_title.mdx'
+import { slides as introduction } from './slides/02_introduction.mdx'
+import { slides as content_1 } from './slides/03_content_1.mdx'
+import { slides as content_2 } from "./slides/04_content_2.mdx";
+
 // import `slides` from your mdx files and spread into `slides` export
-import { slides as title } from './slides/01-title.mdx'
-import { slides as introduction } from './slides/02-introduction.mdx'
-import { slides as content_1 } from './slides/03-content-1.mdx'
-import { duotoneDark } from 'code-surfer'
-
-
 // theme export for code-surfer
 export { duotoneDark as theme } from 'code-surfer'
 
 // theme exports for mdx-deck since `theme` is used by code-surfer
-export const themes = [duotoneDark]
+export const themes = []
 
 // Spread your slides here...
-export const slides = [...title, ...introduction, ...content_1]
+export const slides = [...title, ...introduction, ...content_1, ...content_2]
