@@ -1,6 +1,47 @@
 import { Appear, Embed, Notes } from 'mdx-deck'
-import { Code, CodeSurferLayout } from 'code-surfer'
+import { CodeSurferLayout } from 'code-surfer'
 
-## Prettier
-![image](https://raw.githubusercontent.com/vscode-icons/vscode-icons/b40aa3dfff732920a76e49bd437284a49f972ac6/icons/file_type_prettier.svg)
-    
+## [Prettier](https://prettier.io/)
+
+- A code-formatter
+- Supports many languages
+- Integrates with most editors
+- Has few options
+
+---
+
+## Yes I'am 💁
+![gif](https://media1.tenor.com/images/4d2119900eedfa8af9f586147a214b53/tenor.gif?itemid=4556520)
+
+---
+
+### Installation
+
+``` yarn add prettier -D ```
+
+---
+
+<CodeSurferLayout>
+
+```json
+"prettier": {
+    "semi": false
+  }
+```
+```json
+"prettier": {
+    "semi": false,
+    "singleQuote": true
+  }
+```
+```json 2:4
+"prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "all"
+  }
+```
+
+</CodeSurferLayout>
+
+

@@ -1,0 +1,60 @@
+import { Appear, Embed, Notes } from "mdx-deck";
+import { CodeSurferLayout } from "code-surfer";
+
+## Let's merge them 🤾‍♂️
+
+![gif](https://media1.tenor.com/images/a2837df93255bdb089b8064f367f09ac/tenor.gif?itemid=16417810)
+
+---
+
+<CodeSurferLayout>
+
+```json
+"scripts": {
+    "tsc": "rm -rf build/ && tsc",
+    "ts": "rm -rf build/ && tsc -w",
+    "dev": "nodemon ./build/index.js"
+  }
+```
+```json 5
+"scripts": {
+    "tsc": "rm -rf build/ && tsc",
+    "ts": "rm -rf build/ && tsc -w",
+    "dev": "nodemon ./build/index.js",
+    "format": "prettier --write \"src/**/*.{js,ts,tsx,css,scss}\""
+  }
+
+```
+```json
+"scripts": {
+    "tsc": "rm -rf build/ && tsc",
+    "ts": "rm -rf build/ && tsc -w",
+    "dev": "nodemon ./build/index.js",
+    "format": "prettier --write \"src/**/*.{js,ts,tsx,css,scss}\""
+  },
+"prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "all"
+  }
+```
+```json
+"scripts": {
+    "tsc": "rm -rf build/ && tsc",
+    "ts": "rm -rf build/ && tsc -w",
+    "dev": "nodemon ./build/index.js",
+    "format": "prettier --write \"src/**/*.{js,ts,tsx,css,scss}\""
+  },
+"husky": {
+    "hooks": {
+      "pre-commit": "yarn format"
+    }
+  },
+"prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "all"
+  }
+```
+
+</CodeSurferLayout>
