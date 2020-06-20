@@ -1,2 +1,2 @@
-# Surabaya MeetUp #9 Deck, Prettier with Husky Git Hooks
-## June, 20th 2020
+## @surabayajs MeetUp #9, June, 20th 2020
+### Prettier with Husky Git Hooks
